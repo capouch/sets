@@ -1,4 +1,5 @@
-load("set.js");
+load('./Set.js');
+
 var names = new Set();
 names.add("David");
 names.add("Jennifer");
