@@ -1,4 +1,5 @@
-load("set.js");
+load('./Set.js');
+
 var cis = new Set();
 cis.add("Mike");
 cis.add("Clayton");
