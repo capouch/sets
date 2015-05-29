@@ -1,4 +1,5 @@
-load("set.js");
+load('./Set.js');
+
 var cis = new Set();
 var it = new Set();
 cis.add("Clayton");
@@ -10,7 +11,7 @@ it.add("Jennifer");
 var diff = new Set();
 diff = cis.difference(it);
 print("[" + cis.show() + "] difference [" + it.show()
- + "] -> [" + diff.show() + "]");
-diff = it.difference(cis);
-print("[" + cis.show() + "] difference [" + it.show()
- + "] -> [" + diff.show() + "]");
+  + "] -> [" + diff.show() + "]");
+//diff = it.difference(cis);
+//print("[" + cis.show() + "] difference [" + it.show()
+//  + "] -> [" + diff.show() + "]");
