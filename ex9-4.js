@@ -1,4 +1,5 @@
-load("set.js");
+load('./Set.js');
+
 var it = new Set();
 it.add("Cynthia");
 it.add("Clayton");
@@ -12,10 +13,11 @@ var dmp = new Set();
 dmp.add("Cynthia");
 dmp.add("Raymond");
 dmp.add("Jonathan");
-dmp.add("Shirley");
+// Uncomment for variant two
+//dmp.add("Shirley");
 if (dmp.subset(it)) {
- print("DMP is a subset of IT.");
+  print("DMP is a subset of IT.");
 }
 else {
- print("DMP is not a subset of IT.");
+  print("DMP is not a subset of IT.");
 }
